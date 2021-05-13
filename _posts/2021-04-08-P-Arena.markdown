@@ -1,0 +1,34 @@
+---
+title: Graduation Project ARENA - Development Story
+author: Allen Chen
+date: 2019-08-08 11:33:00 +0800
+categories: [Blogging, Projects]
+tags: [Development]
+math: true
+mermaid: true
+image:
+  src: https://res.cloudinary.com/pakila/image/upload/q_auto,f_auto/ARENA_Training_System_prpu27.png
+---
+
+**For detail about the projects itself, you can [download the report over here](https://drive.google.com/file/d/1nl0KPjDD4ljEpWqRdkl_3kDE-_V7Fc4e/view?usp=sharing), this blog post will focus on the development process.**
+
+ARENA is a project that I am both proud and regret a lot at the same time, it suffers scope creep and many other issues, but the lesson me and my teammates learned and knowledge gain from this attempt is extremely valuable to me.
+
+First of all, let’s talk about scope creep, the early concept of the project is pretty simple on the high-level view, we develop a system that can generate controller for a 2D Turret Robots that can move and shot, and we develop a game base off our system, the second part is what backfired.
+
+<center>Just look at the snippet of the architecture.</center>
+
+<center>
+<div class="Banner">
+<img src="https://res.cloudinary.com/pakila/image/upload/f_auto,q_auto/OhGod_r5pj7f.jpg"  alt="Banner" >
+</div>
+
+</center>
+
+I spent way too much time “Not” on the core subject of the project, I made the tough call to ignore the game itself and focusing on refining the training system based on NEAT.
+
+The process of design and implement training system however, is something I am pretty proud of, we knew what NEAT is capable of, and reimplementing it in Unity C# with original implementation as reference really help me understand what’s going on under the hood, and optimized our result by implemented a simple Self-Play system inspired by [OpenAI’s competitive self-play]( https://openai.com/blog/competitive-self-play/)
+
+We did hit a performance issue later on, which is solved by using Unity Job System to batch update hundreds of robots, if I had more time, I will love to refractor the code with Unity’s DOTS, unfortunately at the time we were weeks away from deadline.
+
+That being said, there are so much more that could be done better, too much actually, which is why this is a project that I both proud and regret of, for what I learned and what I could.
