@@ -20,10 +20,11 @@ I enjoy working on Video Games. The challenge of designing, creating and managin
 
 <center>
 <div class="Banner">
-<img src="https://res.cloudinary.com/pakila/image/upload/f_auto,q_auto/Banner_bc9kvg.png"  alt="Banner" >
+<img src="https://res.cloudinary.com/pakila/image/upload/v1619793502/Banner_bc9kvg.png"  alt="Banner" >
 </div>
 Sector Lock - from schema to implementation
 </center>
+
 <br>
 <center><h1><span style="color:#cccccc">Demo</span></h1></center>
 ---
