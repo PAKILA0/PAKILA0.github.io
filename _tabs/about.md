@@ -39,6 +39,17 @@ Sector Lock - Modern Style GUI and Functions
 </center>
 <center>
 <div class="video-mask">
+<video width="100%" height="100%" poster="https://res.cloudinary.com/pakila/video/upload/BulletDemo_gv1okk.jpg" controls>
+  <source src="https://res.cloudinary.com/pakila/video/upload/f_auto,q_auto/BulletDemo_gv1okk.webm" type="video/webm"/>
+  <source src="https://res.cloudinary.com/pakila/video/upload/f_auto,q_auto/BulletDemo_gv1okk.mp4" type="video/mp4"/>
+</video>
+</div>
+Sector Lock - Bullet Network Replication & Lag Compensation
+</center>
+
+
+<center>
+<div class="video-mask">
 <video width="100%" height="100%" poster="https://res.cloudinary.com/pakila/video/upload/Training_Demo_ucxlj8.jpg" controls>
   <source src="https://res.cloudinary.com/pakila/video/upload/q_auto,f_auto/Training_Demo_ucxlj8.webm" type="video/webm"/>
   <source src="https://res.cloudinary.com/pakila/video/upload/q_auto,f_auto/Training_Demo_ucxlj8.mp4" type="video/mp4"/>
@@ -46,10 +57,6 @@ Sector Lock - Modern Style GUI and Functions
 </div>
 ARENA - Attempt use of NEAT(Neuroevolution of Augmenting Topologies) for game application
 </center>
-<!--
-![Desktop View](https://res.cloudinary.com/pakila/image/upload/v1619626546/Techs_y6mkka.png)
-_These are the tools that I am familiar with._
--->
 <br>
 <center><h1><span style="color:#cccccc">Projects</span></h1></center>
 ---
